@@ -478,6 +478,11 @@ if [ "$ID" == "debian" ] && [ "$VERSION_ID" == "12" ]; then
   distversion=r12
 fi
 
+if [ "$ID" == "debian" ] && [ "$VERSION_ID" == "12" ]; then
+  dist='apt'
+  distversion=r12
+fi
+
 if [ "$ID" == "raspbian" ] && [ "$VERSION_ID" == "8" ]; then
   dist='apt'
   distversion=r8
